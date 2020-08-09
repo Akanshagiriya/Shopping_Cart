@@ -18,7 +18,8 @@ RUN npm install -g @angular/cli
 # add app
 COPY . ./
 
+EXPOSE 4200
+
 # start app
 CMD ["ng","serve"]
 
-EXPOSE 4200
